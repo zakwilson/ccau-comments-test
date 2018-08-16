@@ -1,0 +1,14 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "master"
+  commitMessage: "Add Staticman data"
+  filename: "entry{@timestamp}"
+  format: "yaml"
+  moderation: false
+  name: "cryptocoin.com.au test"
+  path: "comments/{options.slug}"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
