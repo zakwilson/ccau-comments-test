@@ -1,5 +1,6 @@
 comments:
   allowedFields: ["name", "email", "url", "message"]
+  requiredFields: ["name", "email", "message"]
   branch: "master"
   commitMessage: "Add Staticman data"
   filename: "entry{@timestamp}"
